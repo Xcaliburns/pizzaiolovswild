@@ -542,12 +542,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5288383708480263461}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 725d7f990c5ccf748a4ca917c0ec59a8, type: 3}
+  m_Script: {fileID: 11500000, guid: 38e917c52987daa41af6a0305d9813c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalInput: 0
-  speed: 20
-  xRange: 20
   projectilePrefab: {fileID: 3936241783350710643, guid: b2fb44b41e012b145bc254a5ac921867, type: 3}
 --- !u!1 &5288383708575398984
 GameObject:

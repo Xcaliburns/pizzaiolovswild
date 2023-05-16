@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Moose_01 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 148086, guid: 72d1e1ec46e639c47a81658b0d9e230e, type: 3}
+      propertyPath: m_TagString
+      value: Animal
+      objectReference: {fileID: 0}
     - target: {fileID: 431108, guid: 72d1e1ec46e639c47a81658b0d9e230e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -97,11 +101,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5831528310996847183}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3328d187107769748b361a4cb4e31275, type: 3}
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topBound: 30
-  lowBound: -10
 --- !u!114 &-2271996594596552181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,6 +113,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 5831528310996847183}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5144a60d284421d428a0f1708894d73d, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5371002372147144006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5831528310996847183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4e627e0fe718346a6a3a6841a394a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 1
